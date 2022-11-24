@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def if_else(x,y):
-    if(x>y):
-        return x+y
-    else:
-        return 2*x
+def factoria(x):
+    fact = 1
+    for i in range(x+1):
+        fact *= i
+    return fact

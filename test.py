@@ -9,14 +9,13 @@ class TestSum(unittest.TestCase):
         """
         Test case to add two numbers
         """
-        x = 10
-        y = 10
+        x = 5
         result_1 = if_else(x,y)
 
         n = 15
         result_2 = loop(n)
 
-        self.assertEqual(result_1, 20)
+        self.assertEqual(result_1, 120)
         self.assertEqual(result_2, 120)
 
 if __name__ == '__main__':

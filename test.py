@@ -10,7 +10,7 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         x = 5
-        result_1 = factorial(x,y)
+        result_1 = factorial(x)
 
         n = 15
         result_2 = summation(n)

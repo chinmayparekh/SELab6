@@ -6,19 +6,19 @@ pipeline {
                 git 'https://github.com/chinmayparekh/SE-Jenkins.git'
             }
         }
-        stage('Build for Prog1') {
+          stage('Build if_else Code') {
             steps {
-                sh "chmod u+x prog1.py"
-                sh "./Prog1.py"
+                sh "chmod u+x If_else.py"
+                sh "./If_else.py"
             }
         }
-        stage('Build for Prog2') {
+        stage('Build loop Code') {
             steps {
-                sh "chmod u+x prog2.py"
-                sh "./Prog2.py"
+                sh "chmod u+x Loop.py"
+                sh "./Loop.py"
             }
         }
-     stage('Testing') {
+     stage('Test Code') {
             steps {
                 sh "chmod u+x test.py"
                 sh "./test.py"

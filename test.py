@@ -1,21 +1,23 @@
 #!/usr/bin/python3
 import unittest
 
-from Prog1 import factorial
-from Prog2 import summation
-class TestFact(unittest.TestCase):
+from If_else import if_else
+from Loop import loop
+
+class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
-        Test case to check factorial of numbers
+        Test case to add two numbers
         """
-        x = 5
-        result_1 = factorial(x)
+        x = 10
+        y = 10
+        result_1 = if_else(x,y)
 
-        n = 10
-        result_2 = summation(n)
+        n = 15
+        result_2 = loop(n)
 
-        self.assertEqual(result_1, 120)
-        self.assertEqual(result_2, 55)
+        self.assertEqual(result_1, 20)
+        self.assertEqual(result_2, 100)
 
 if __name__ == '__main__':
     unittest.main()

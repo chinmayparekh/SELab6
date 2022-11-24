@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import unittest
 
-from If_else import if_else
-from Loop import loop
+from If_else import factorial
+from Loop import summation
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
@@ -10,10 +10,10 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         x = 5
-        result_1 = if_else(x,y)
+        result_1 = factorial(x,y)
 
         n = 15
-        result_2 = loop(n)
+        result_2 = summation(n)
 
         self.assertEqual(result_1, 120)
         self.assertEqual(result_2, 120)

@@ -17,7 +17,7 @@ class TestSum(unittest.TestCase):
         result_2 = loop(n)
 
         self.assertEqual(result_1, 20)
-        self.assertEqual(result_2, 100)
+        self.assertEqual(result_2, 120)
 
 if __name__ == '__main__':
     unittest.main()

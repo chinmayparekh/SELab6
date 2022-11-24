@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import unittest
 
-from If_else import factorial
-from Loop import summation
+from Fact import factorial
+from Sum import summation
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):

@@ -9,14 +9,28 @@ class TestSum(unittest.TestCase):
         """
         Test case to add two numbers
         """
-        x = 5
-        result_1 = factorial(x)
+        a = 5
+        result_1 = factorial(a) # 120
+
+        b = 6
+        result_2 = factorial(b) #720
+
+        c= 2
+        result_3 = factorial(c) #2
 
         n = 15
-        result_2 = summation(n)
+        result_4 = summation(n) #120
+
+        m = 10
+        result_5 = summation(m) #55
 
         self.assertEqual(result_1, 120)
-        self.assertEqual(result_2, 120)
+        self.assertEqual(result_2, 720)
+        self.assertEqual(result_3, 2)
+        self.assertEqual(result_4, 120)
+        self.assertEqual(result_5, 55)
+
+
 
 if __name__ == '__main__':
     unittest.main()

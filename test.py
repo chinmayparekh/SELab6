@@ -27,8 +27,8 @@ class TestSum(unittest.TestCase):
         # self.assertEqual(result_1, 120)
         # self.assertEqual(result_2, 720)
         # self.assertEqual(result_3, 20) #fail
-        self.assertEqual(result_4, 120)
-        # self.assertEqual(result_5, 50) #fail
+        # self.assertEqual(result_4, 120)
+        self.assertEqual(result_5, 50) #fail
 
 
 

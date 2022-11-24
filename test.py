@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import unittest
 
-from prog1 import factorial
-from prog2 import summation
+from Prog1 import factorial
+from Prog2 import summation
 class TestFact(unittest.TestCase):
     def test_list_int(self):
         """

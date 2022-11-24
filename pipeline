@@ -9,13 +9,13 @@ pipeline {
         stage('Build for Prog1') {
             steps {
                 sh "chmod u+x prog1.py"
-                sh "./prog1.py"
+                sh "./Prog1.py"
             }
         }
         stage('Build for Prog2') {
             steps {
                 sh "chmod u+x prog2.py"
-                sh "./prog2.py"
+                sh "./Prog2.py"
             }
         }
      stage('Testing') {
